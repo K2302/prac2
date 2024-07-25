@@ -83,14 +83,14 @@ const Form = () => {
           id="name"
           name="name"
           required
-          placeholder="Medicine"
+          placeholder="Admission Fees"
           value={bloodType === 0 ? "" : bloodType}
           onChange={(e) => setBloodType(e.target.value)}
         >
           <option value="">Select Type</option>
-          <option value="medicine">Admission Fees</option>
-          <option value="Subsidy">Hostel Fees</option>
-          <option value="Infrastructure">For Books</option>
+          <option value="Admission Fees">Admission Fees</option>
+          <option value="Hostel Fees">Hostel Fees</option>
+          <option value="For Books">For Books</option>
           <option value="Others">Others</option>
         </select>
   
