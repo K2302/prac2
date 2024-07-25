@@ -30,7 +30,7 @@ const Data = () => {
             <div className="grid-header">Amount</div>
             {/* <div className="grid-header">Gender</div> */}
             <div className="grid-header">Fund Type</div>
-            <div className="grid-header">Hospital Name</div>
+            <div className="grid-header">Institute Name</div>
             <div className="grid-header">Project Details</div>
             {/* <div className="grid-header">Treatment Plan</div> */}
 

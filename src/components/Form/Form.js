@@ -41,7 +41,7 @@ const Form = () => {
     <div className="login-container">
       <h1></h1>
     {account?( <form onSubmit={submitHandler}>
-        <h1>Medical Fund Details</h1>
+        <h1>Education Fund Details</h1>
 
         <label htmlFor="name">Project Name:</label>
         <input
@@ -88,19 +88,19 @@ const Form = () => {
           onChange={(e) => setBloodType(e.target.value)}
         >
           <option value="">Select Type</option>
-          <option value="medicine">medicine</option>
-          <option value="Subsidy">Subsidy</option>
-          <option value="Infrastructure">Infrastructure</option>
+          <option value="medicine">Admission Fees</option>
+          <option value="Subsidy">Hostel Fees</option>
+          <option value="Infrastructure">For Books</option>
           <option value="Others">Others</option>
         </select>
   
-        <label htmlFor="address">Hospital Name</label>
+        <label htmlFor="address">Institute Name</label>
         <input
           type="text"
           id="name"
           name="name"
           required
-          placeholder="apollo hospital"
+          placeholder="NIT Silchar"
           value={allergies === 0 ? "" : allergies}
           onChange={(e) => setAllergies(e.target.value)}
         />
@@ -110,7 +110,7 @@ const Form = () => {
           id="name"
           name="name"
           required
-          placeholder="For medicine"
+          placeholder="For Admission Fees"
           value={diagnosis === 0 ? "" : diagnosis}
           onChange={(e) => setDiagnosis(e.target.value)}
         />
