@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="nav__name">
         <img src={healthReport} alt="" width="40" height="40" />
-        <h2>HealthCare Fund Management</h2>
+        <h2>Education Fund Management</h2>
       </div>
       <div className="nav__networkSelector">
         <select
