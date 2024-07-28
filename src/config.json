@@ -13,7 +13,8 @@
     },
     "11155111":{
         "medical": {
-            "address": "0x904Db7e65B9DD78FF2BE98bbEe89f260572DfaAe"
+           
+        "address": "0x7d2915B07C9D478E6660d2400147F891bef5d66b"
         },
         "explorerURL": "https://sepolia.etherscan.io/"
     }
